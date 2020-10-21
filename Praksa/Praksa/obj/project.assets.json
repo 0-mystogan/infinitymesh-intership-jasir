@@ -48,6 +48,16 @@
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
+      },
+      "Praksa.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Praksa.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Praksa.Dal.dll": {}
+        }
       }
     }
   },
@@ -107,12 +117,18 @@
         "microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
+    },
+    "Praksa.Dal/1.0.0": {
+      "type": "project",
+      "path": "../Praksa.Dal/Praksa.Dal.csproj",
+      "msbuildProject": "../Praksa.Dal/Praksa.Dal.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "FluentValidation >= 9.2.2",
-      "FluentValidation.AspNetCore >= 9.2.0"
+      "FluentValidation.AspNetCore >= 9.2.0",
+      "Praksa.Dal >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -140,7 +156,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "I:\\InfinityMesh\\Praksa\\Praksa\\Praksa.Dal\\Praksa.Dal.csproj": {
+              "projectPath": "I:\\InfinityMesh\\Praksa\\Praksa\\Praksa.Dal\\Praksa.Dal.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -26,6 +26,7 @@
         "dependencies": {
           "FluentValidation": "9.2.2",
           "FluentValidation.AspNetCore": "9.2.0",
+          "Praksa.Dal": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -358,6 +359,14 @@
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.0": {},
+      "Praksa.Dal/1.0.0": {
+        "runtime": {
+          "Praksa.Dal.dll": {}
+        },
+        "compile": {
+          "Praksa.Dal.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Antiforgery.dll": {}
@@ -2085,6 +2094,11 @@
       "sha512": "sha512-8/CtASu80UIoyG+r8FstrmZW5GLtXxzoYpjj3jV0FKZCL5CiFgSH3pAmqut/dC68mu7N1bU6v0UtKKL3gCUQGQ==",
       "path": "microsoft.extensions.dependencyinjection.abstractions/2.1.0",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+    },
+    "Praksa.Dal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
       "type": "referenceassembly",
