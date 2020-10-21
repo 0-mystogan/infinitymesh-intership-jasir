@@ -6,3 +6,12 @@ I:\InfinityMesh\Praksa\Praksa\Praksa.Dal\obj\Debug\netcoreapp3.1\Praksa.Dal.Asse
 I:\InfinityMesh\Praksa\Praksa\Praksa.Dal\obj\Debug\netcoreapp3.1\Praksa.Dal.csproj.CoreCompileInputs.cache
 I:\InfinityMesh\Praksa\Praksa\Praksa.Dal\obj\Debug\netcoreapp3.1\Praksa.Dal.dll
 I:\InfinityMesh\Praksa\Praksa\Praksa.Dal\obj\Debug\netcoreapp3.1\Praksa.Dal.pdb
+I:\InfinityMesh\infinitymesh-intership-jasir\Praksa\Praksa.Dal\bin\Debug\netcoreapp3.1\Praksa.Dal.deps.json
+I:\InfinityMesh\infinitymesh-intership-jasir\Praksa\Praksa.Dal\bin\Debug\netcoreapp3.1\Praksa.Dal.dll
+I:\InfinityMesh\infinitymesh-intership-jasir\Praksa\Praksa.Dal\bin\Debug\netcoreapp3.1\Praksa.Dal.pdb
+I:\InfinityMesh\infinitymesh-intership-jasir\Praksa\Praksa.Dal\obj\Debug\netcoreapp3.1\Praksa.Dal.csprojAssemblyReference.cache
+I:\InfinityMesh\infinitymesh-intership-jasir\Praksa\Praksa.Dal\obj\Debug\netcoreapp3.1\Praksa.Dal.AssemblyInfoInputs.cache
+I:\InfinityMesh\infinitymesh-intership-jasir\Praksa\Praksa.Dal\obj\Debug\netcoreapp3.1\Praksa.Dal.AssemblyInfo.cs
+I:\InfinityMesh\infinitymesh-intership-jasir\Praksa\Praksa.Dal\obj\Debug\netcoreapp3.1\Praksa.Dal.dll
+I:\InfinityMesh\infinitymesh-intership-jasir\Praksa\Praksa.Dal\obj\Debug\netcoreapp3.1\Praksa.Dal.pdb
+I:\InfinityMesh\infinitymesh-intership-jasir\Praksa\Praksa.Dal\obj\Debug\netcoreapp3.1\Praksa.Dal.csproj.CoreCompileInputs.cache

@@ -1,12 +1,13 @@
-﻿using Praksa.Dal.Domain;
+﻿using Microsoft.EntityFrameworkCore;
+using Praksa.Dal.Domain;
 using Praksa.Domain;
 using System.Collections.Generic;
 
 namespace Praksa.Dal.Context
 {
-    public class EShopDbContext
+    public class EShopDbContext : DbContext
     {
-        public List<User> Users { get; set; }
-        public List<Account> Accounts { get; set; }
+        public DbSet<Account> Accounts { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }

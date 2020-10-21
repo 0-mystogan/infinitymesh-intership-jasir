@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "I:\\InfinityMesh\\Praksa\\Praksa\\Praksa\\Praksa.csproj": {}
+    "I:\\InfinityMesh\\infinitymesh-intership-jasir\\Praksa\\Praksa\\Praksa.csproj": {}
   },
   "projects": {
-    "I:\\InfinityMesh\\Praksa\\Praksa\\Praksa.Dal\\Praksa.Dal.csproj": {
+    "I:\\InfinityMesh\\infinitymesh-intership-jasir\\Praksa\\Praksa.Dal\\Praksa.Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\InfinityMesh\\Praksa\\Praksa\\Praksa.Dal\\Praksa.Dal.csproj",
+        "projectUniqueName": "I:\\InfinityMesh\\infinitymesh-intership-jasir\\Praksa\\Praksa.Dal\\Praksa.Dal.csproj",
         "projectName": "Praksa.Dal",
-        "projectPath": "I:\\InfinityMesh\\Praksa\\Praksa\\Praksa.Dal\\Praksa.Dal.csproj",
+        "projectPath": "I:\\InfinityMesh\\infinitymesh-intership-jasir\\Praksa\\Praksa.Dal\\Praksa.Dal.csproj",
         "packagesPath": "C:\\Users\\yasir\\.nuget\\packages\\",
-        "outputPath": "I:\\InfinityMesh\\Praksa\\Praksa\\Praksa.Dal\\obj\\",
+        "outputPath": "I:\\InfinityMesh\\infinitymesh-intership-jasir\\Praksa\\Praksa.Dal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yasir\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -56,14 +62,14 @@
         }
       }
     },
-    "I:\\InfinityMesh\\Praksa\\Praksa\\Praksa\\Praksa.csproj": {
+    "I:\\InfinityMesh\\infinitymesh-intership-jasir\\Praksa\\Praksa\\Praksa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\InfinityMesh\\Praksa\\Praksa\\Praksa\\Praksa.csproj",
+        "projectUniqueName": "I:\\InfinityMesh\\infinitymesh-intership-jasir\\Praksa\\Praksa\\Praksa.csproj",
         "projectName": "Praksa",
-        "projectPath": "I:\\InfinityMesh\\Praksa\\Praksa\\Praksa\\Praksa.csproj",
+        "projectPath": "I:\\InfinityMesh\\infinitymesh-intership-jasir\\Praksa\\Praksa\\Praksa.csproj",
         "packagesPath": "C:\\Users\\yasir\\.nuget\\packages\\",
-        "outputPath": "I:\\InfinityMesh\\Praksa\\Praksa\\Praksa\\obj\\",
+        "outputPath": "I:\\InfinityMesh\\infinitymesh-intership-jasir\\Praksa\\Praksa\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yasir\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -79,8 +85,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "I:\\InfinityMesh\\Praksa\\Praksa\\Praksa.Dal\\Praksa.Dal.csproj": {
-                "projectPath": "I:\\InfinityMesh\\Praksa\\Praksa\\Praksa.Dal\\Praksa.Dal.csproj"
+              "I:\\InfinityMesh\\infinitymesh-intership-jasir\\Praksa\\Praksa.Dal\\Praksa.Dal.csproj": {
+                "projectPath": "I:\\InfinityMesh\\infinitymesh-intership-jasir\\Praksa\\Praksa.Dal\\Praksa.Dal.csproj"
               }
             }
           }
@@ -101,6 +107,10 @@
             "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[9.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
             }
           },
           "imports": [
